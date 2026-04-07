@@ -5,18 +5,18 @@ enum class cellState
         NONE,
         P1,
         P2,
-}
+};
 
 class Board
 {
-        cellstate cells[7][6];
+        cellState **cells = nullptr;
 
 public:
         Board(void);
 
-        bool insert(short column, cellstate player);
+        bool insert(short column, cellState player);
 
         bool isColAvailable(short column);
 
         cellState whoWins(void);
-}
+};

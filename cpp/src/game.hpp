@@ -14,4 +14,4 @@ public:
         short inputColumn(void);
         bool isValidInput(string input)
         
-}
+};
