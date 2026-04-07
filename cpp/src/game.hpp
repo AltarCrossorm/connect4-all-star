@@ -1,5 +1,6 @@
 #pragma once
 #include "board.hpp"
+#include "gui.hpp"
 #include <string>
 
 class Game
@@ -11,7 +12,7 @@ private:
 
 public:
         Game(void);
+        void startGameLoop(void);
         short inputColumn(void);
-        bool isValidInput(string input)
-        
+        bool isValidInput(std::string input);
 };
