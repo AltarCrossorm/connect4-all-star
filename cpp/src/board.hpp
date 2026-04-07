@@ -13,6 +13,7 @@ class Board
 
 public:
         Board(void);
+        ~Board(void);
 
         bool insert(short column, cellState player);
 
