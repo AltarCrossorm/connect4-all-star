@@ -1,6 +1,8 @@
-#include <iostream>
+#include "game.hpp"
 
-int main(int argc, char* argv[])
+int main(void)
 {
-        std::cout << "Hello" << argv[0] << std::endl; 
+        Game game;
+
+        game.startGameLoop();
 }
