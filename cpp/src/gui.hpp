@@ -19,5 +19,7 @@ public:
 
         void render(void);
         void clear(void);
-
+        
+        void drawBoard(void);
+        void drawMenu(void);
 };
