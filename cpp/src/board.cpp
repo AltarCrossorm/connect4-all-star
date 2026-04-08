@@ -2,10 +2,10 @@
 
 Board::Board(void)
 {
-    cells = new cellState*[7];
-    for(int i=0; i<7;i++)
+    this->cells = new cellState*[BOARD_LENGH];
+    for(int i = 0 ; i < BOARD_LENGH ; i++ )
     {
-        cells[i] = new cellState[6];
+        this->cells[i] = new cellState[BOARD_HEIGHT];
     }
 
     for(int i=0; i<7;i++)
