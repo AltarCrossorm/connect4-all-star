@@ -16,5 +16,5 @@ public:
         Game(void);
         void startGameLoop(void);
         short inputColumn(void);
-        bool isValidInput(std::string input);
+        bool isValidInput(short input);
 };
