@@ -3,12 +3,14 @@
 #include "gui.hpp"
 #include <string>
 
+using Players = cellState;
+
 class Game
 {
 private:
         Board *board = nullptr;
         GUI *gui = nullptr;
-        cellState playerTurn;
+        Players playerTurn;
 
 public:
         Game(void);
